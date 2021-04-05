@@ -252,7 +252,7 @@ class MainActivity : AppCompatActivity(), RemoteParticipant.Listener, LocalParti
         if (room.remoteParticipants.size == 0) {
             Snackbar.make(
                 remote_video,
-                "You're the only one here, wait for other user's to join",
+                "You're here alone, wait for other user's to join",
                 Snackbar.LENGTH_LONG
             ).show()
         }
