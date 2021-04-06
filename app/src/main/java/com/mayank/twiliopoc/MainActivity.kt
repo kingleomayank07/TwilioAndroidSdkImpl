@@ -68,7 +68,6 @@ class MainActivity : AppCompatActivity(), RemoteParticipant.Listener, LocalParti
     private var isCameraOn = true
     private var isMicOn = true
     private var selfPreview = false
-    private var isFrontCamera = true
     private var enableAudio = true
     private var remoteVideoTrack: RemoteVideoTrack? = null
     private var localParticipant: LocalParticipant? = null
